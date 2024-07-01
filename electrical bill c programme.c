@@ -3,13 +3,13 @@
 \\Description:programme to calculate electrical bill
 #include<stdio.h>
 int main(){
-int customer id;
+int customerID;
 char customerName[50];
 int unitconsumed;
-int charges,totalbill
+int charges,totalbill;
 printf("Enter the customerID:");
 scanf("%d,&customerID);
-printf("enter the customer name:");
+printf("enter the customerName:");
 scanf("%s",customerName);
 printf("Enter the unitconsumed:");
 scanf("%d",&unitconsumed);
@@ -26,8 +26,8 @@ charges = unitconsumed*1.80;
 else {
 charges = unitconsumed*2.00;
 }
-printf("\nCustomerID:%d\n",customeriD);
-printf("CustomerName:%s\n",customername);
+printf("\nCustomerID:%d\n",customerID);
+printf("CustomerName:%s\n",customerName);
 printf("unitconsumed:%d\n",unitconsumed);
 printf("Totalbill:%2f\n",totalbill);
 return 0;
