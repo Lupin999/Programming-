@@ -9,7 +9,7 @@ int longlong = 50 ; //%d
 float salary = 50.67; //%f
 short budget = 35.78; //%lf
 char a = 'c', //%c
-printf("Please enter the value of longlong");
+printf("Please enter the value of longlong;");
 scanf("%d,&longlong);
 printf("The value of longlong is %d\n",longlong);
 printf("The value of salary is %10.2f\n",salary);
